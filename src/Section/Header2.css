@@ -1,0 +1,42 @@
+/* Trending heading styles matching header's color scheme */
+.header {
+    background-color: #1f1f1f; /* Dark background */
+    color: #f0f0f0;            /* Light text color */
+    padding: 20px;             /* Padding inside header */
+    border-radius: 10px;       /* Rounded corners */
+    margin: 20px;              /* Margin around header */
+    text-align: center;        /* Center the text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Soft shadow */
+}
+
+/* Header h2 styling with glow animation */
+.header h2 {
+    margin: 0;                /* Remove default margin */
+    font-size: 2.5rem;        /* Adjust font size */
+    font-weight: bold;        /* Bold text */
+    letter-spacing: 2px;      /* Letter spacing */
+    color: #E50914;           /* Netflix Red */
+    text-shadow: 0 0 10px #E50914, 0 0 20px #FF6347; /* Initial glowing effect */
+    
+    /* Animation: Glow effect */
+    animation: glowAnimation 2s ease-in-out infinite alternate;
+}
+
+/* Keyframes for the glow animation */
+@keyframes glowAnimation {
+    0% {
+        text-shadow: 0 0 10px #E50914, 0 0 20px #FF6347, 0 0 30px #E50914;
+        color: #E50914;
+    }
+    50% {
+        text-shadow: 0 0 20px #FF6347, 0 0 30px #FF6347, 0 0 40px #E50914;
+        color: #FF6347; /* Slight color change */
+    }
+    100% {
+        text-shadow: 0 0 30px #E50914, 0 0 40px #E50914, 0 0 50px #FF6347;
+        color: #E50914; /* Back to original red color */
+    }
+}
+
+/* Optional: Hover effect for extra glow on mouse-over */
+

@@ -1,0 +1,94 @@
+.tv{
+   
+        font-size: 2rem;                   /* Adjusted font size */
+        font-weight: bold;                 /* Bold text for prominence */
+       color: #006D6B;                 /* A professional, darker red color */
+        text-align: center;                /* Centers the text */
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Soft shadow for a subtle effect */
+        margin-bottom: 20px;               /* Adds space below the heading */
+        line-height: 1.4;         
+    
+}
+/* Styling for the card container */
+.card {
+    background-color: #1f1f1f; /* Dark background for contrast */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    overflow: hidden; /* Ensures content doesn't spill out */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    color: #f0f0f0; /* Light text color */
+    width: 250px; /* Adjust card width */
+    margin: 15px; /* Space between cards */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Hover effect for the card */
+  .card:hover {
+    transform: translateY(-5px); /* Slight upward movement */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); /* Stronger shadow on hover */
+  }
+  
+  /* Styling for the card image */
+  .card-image img {
+    width: 100%; /* Full width for responsiveness */
+    height: auto; /* Maintain aspect ratio */
+    border-bottom: 2px solid #e50914; /* Netflix Red separator */
+  }
+  
+  /* Styling for the card content */
+  .card-content {
+    padding: 15px; /* Inner spacing */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+  
+  /* Title styling */
+  .card-content h5 {
+    font-size: 1.2rem; /* Adjust font size */
+    margin: 10px 0; /* Space around the title */
+    color: #e50914; /* Netflix Red for the title */
+    text-align: center; /* Center align */
+  }
+  
+  /* Meta info (media type and release date) */
+  .card-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem; /* Smaller font size */
+    margin: 10px 0;
+    color: #a0a0a0; /* Muted text color */
+  }
+  
+  /* Styling for media type */
+  .card-meta .media-type {
+    background-color: #e50914; /* Netflix Red */
+    color: #fff; /* White text */
+    padding: 5px 10px; /* Spacing inside badge */
+    border-radius: 12px; /* Rounded badge */
+    font-size: 0.8rem; /* Adjust font size */
+  }
+  
+  /* Styling for the overview */
+  .card-overview h4 {
+    font-size: 0.9rem; /* Slightly smaller text */
+    line-height: 1.4; /* Adjust line spacing */
+    color: #d0d0d0; /* Muted text color */
+    margin-top: 10px;
+    text-align: justify; /* Align overview text */
+  }
+  
+  /* Responsive styling for smaller screens */
+  @media (max-width: 768px) {
+    .card {
+      width: 100%; /* Full width for smaller devices */
+    }
+  
+    .card-content h5 {
+      font-size: 1rem; /* Smaller title font for smaller screens */
+    }
+  }
+  
