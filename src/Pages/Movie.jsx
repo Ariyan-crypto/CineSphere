@@ -17,7 +17,7 @@ const fetching=async()=>{
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZTM3MWM1ZDA3ZWI3Yzg0ZmFhMzg0ZTE2Y2I3MTU1YyIsIm5iZiI6MTcyOTQzMTAxMi45MjAxOTYsInN1YiI6IjY2Zjk1ZTkxMWE5YzkxODhmZWNjNWIzNyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.TEq1Goql04I1UTvkhFd6-HjE68k4q8__CDP2eNEY6Jg'
+      Authorization:`Bearer ${import.meta.env.VITE_SECRET_KEY}`
     }
   };
   const data=await fetch(`https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc&page=${page}&with_genres=${genreURL}

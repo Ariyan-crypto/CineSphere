@@ -36,13 +36,13 @@ export default function Footer() {
         <div style={sectionStyle}>
           <h4 style={headingStyle}>Contact Us</h4>
           <ul style={ulStyle}>
-            <li><span style={contactStyle}>Email: contact@moviecentral.com</span></li>
-            <li><span style={contactStyle}>Phone: +123 456 789</span></li>
+            <li><span style={contactStyle}>Email: contact@cinesphere.com</span></li>
+  
           </ul>
         </div>
       </div>
       <div style={footerBottomStyle}>
-        <p style={footerTextStyle}>© 2024 Movie Central. All Rights Reserved.</p>
+        <p style={footerTextStyle}>CineSphere. Powered by Movie Lovers, for Movie Lovers.</p>
       </div>
     </footer>
   );

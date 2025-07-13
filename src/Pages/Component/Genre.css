@@ -1,0 +1,17 @@
+
+.genre-btn {
+  background: #eee;
+  color: #333;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 20px;
+  margin: 2px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.genre-btn.selected-genre {
+  background: #007bff;
+  color: #fff;
+  font-weight: bold;
+}

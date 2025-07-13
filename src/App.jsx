@@ -24,6 +24,10 @@ element:<><Trending/><Navigation/></>
   { 
     path:"/search",
     element:<><Search/><Navigation/></>
+  },{
+
+    path: "*",
+    element: <div className="error-page">404 - Page Not Found</div>
   }])
 return(
   <>

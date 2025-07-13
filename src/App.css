@@ -67,3 +67,7 @@
   background-color: blue; /* Color when clicked */
 }
 
+.error-page {
+  color: #ff4d4f; /* Bright red error color */
+  font-weight: bold;
+}
