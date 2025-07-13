@@ -27,7 +27,7 @@ CineSphere is a React-based web application that provides users with details abo
 ### Trending Page
 
 - Displays the most popular and trending movies and TV series.  
-- Includes essential details such as title, release date, rating, and a brief overview.
+- Includes essential details such as title, release date and a brief overview.
 
 ### Movie Page
 
